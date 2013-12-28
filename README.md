@@ -1,8 +1,8 @@
 # apache-md5
 [Node.js](http://nodejs.org/) package for Apache style password hash generation using md5..
 
-[![Build Status](https://api.travis-ci.org/gevorg/apache-crypt.png)](https://travis-ci.org/gevorg/apache-md5)
-[![Dependency Status](https://david-dm.org/gevorg/apache-crypt.png)](https://david-dm.org/gevorg/apache-md5)
+[![Build Status](https://api.travis-ci.org/gevorg/apache-md5.png)](https://travis-ci.org/gevorg/apache-md5)
+[![Dependency Status](https://david-dm.org/gevorg/apache-md5.png)](https://david-dm.org/gevorg/apache-md5)
 
 ## Installation
 
