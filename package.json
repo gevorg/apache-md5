@@ -1,6 +1,6 @@
 {
 	"name": "apache-md5",
-	"description": "Node.js module for Apache style password hash generation using md5.",
+	"description": "Node.js module for Apache style password encryption using md5.",
 	"version": "1.0.0",
 	"author": "Gevorg Harutyunyan (http://github.com/gevorg)",
 	"maintainers": [
