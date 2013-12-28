@@ -4,16 +4,16 @@ var md5 = require('../lib/apache-md5');
 module.exports = {
     // Test for valid password.
     testValidPassword: function(test) {
-        var hash = md5("validPass", "B5xBYM2HbnPqI");
+        var encrypted = md5("su/P3R%se#ret!", "$apr1$cF.rAvCe$YlzjmK4qu/ia6hC8CNfnm/");
 
-        test.equal(hash, "B5xBYM2HbnPqI", "Wrong password!");
+        test.equal(encrypted, "$apr1$cF.rAvCe$YlzjmK4qu/ia6hC8CNfnm/", "Wrong password!");
         test.done();
     },
     // Test for invalid password.
     testInValidPassword: function(test) {
-        var hash = md5("invalidPass", "B5xBYM2HbnPqI");
+        var encrypted = md5("invalidPass", "$apr1$cF.rAvCe$YlzjmK4qu/ia6hC8CNfnm/");
 
-        test.notEqual(hash, "B5xBYM2HbnPqI", "Wrong password!");
+        test.notEqual(encrypted, "$apr1$cF.rAvCe$YlzjmK4qu/ia6hC8CNfnm/", "Wrong password!");
         test.done();
     }
 };
