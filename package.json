@@ -1,0 +1,37 @@
+{
+	"name": "apache-md5",
+	"description": "Node.js module for Apache style password hash generation using md5.",
+	"version": "1.0.0",
+	"author": "Gevorg Harutyunyan (http://github.com/gevorg)",
+	"maintainers": [
+		{
+			"name": "gevorg",
+			"email": "gevorg.ha@gmail.com"
+		}
+	],
+	"homepage": "http://github.com/gevorg/apache-md5",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/gevorg/apache-md5.git"
+	},
+	"main": "./lib/apache-md5.js",
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://github.com/gevorg/apache-md5/blob/master/LICENSE"
+		}
+	],
+	"bugs": {
+		"url": "http://github.com/gevorg/apache-md5/issues"
+	},
+	"devDependencies": {
+		"nodeunit": "0.8.1"
+	},
+	"engines": {
+		"node": ">=0.4.1"
+	},
+   "scripts": {
+      "test": "./node_modules/nodeunit/bin/nodeunit tests/*"
+   },
+	"keywords": ["node", "apache", "md5", "password", "htpasswd"]
+}
