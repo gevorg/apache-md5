@@ -24,9 +24,10 @@ var md5 = require("apache-md5");
 
 var encryptedPassword = md5("mypass"); // Encrypting password using apache's md5 algorithm.
 
-console.log(md5("mypass", encryptedPassword) == encryptedPassword); // Should print true.
-console.log(md5("notmypass", encryptedPassword) == encryptedPassword); // Should print false.
-...
+// Should print true.
+console.log(md5("mypass", encryptedPassword) == encryptedPassword);
+// Should print false.
+console.log(md5("notmypass", encryptedPassword) == encryptedPassword);
 ```
 
 ## Running tests
