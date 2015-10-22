@@ -25,7 +25,7 @@
 		"url": "http://github.com/gevorg/apache-md5/issues"
 	},
 	"devDependencies": {
-		"nodeunit": "0.8.1"
+		"nodeunit": "0.9.1"
 	},
 	"engines": {
 		"node": ">=0.4.1"
