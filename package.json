@@ -1,7 +1,7 @@
 {
 	"name": "apache-md5",
 	"description": "Node.js module for Apache style password encryption using md5.",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"author": "Gevorg Harutyunyan (http://github.com/gevorg)",
 	"maintainers": [
 		{
@@ -21,6 +21,7 @@
 			"url": "http://github.com/http-auth/apache-md5/blob/master/LICENSE"
 		}
 	],
+	"license": "MIT",
 	"bugs": {
 		"url": "http://github.com/http-auth/apache-md5/issues"
 	},
