@@ -1,15 +1,15 @@
 # apache-md5
 [Node.js](http://nodejs.org/) package for Apache style password encryption using md5..
 
-[![Build Status](https://api.travis-ci.org/gevorg/apache-md5.png)](https://travis-ci.org/gevorg/apache-md5)
-[![Dependency Status](https://david-dm.org/gevorg/apache-md5.png)](https://david-dm.org/gevorg/apache-md5)
+[![Build Status](https://api.travis-ci.org/http-auth/apache-md5.png)](https://travis-ci.org/http-auth/apache-md5)
+[![Dependency Status](https://david-dm.org/http-auth/apache-md5.png)](https://david-dm.org/http-auth/apache-md5)
 
 ## Installation
 
 Via git (or downloaded tarball):
 
 ```bash
-$ git clone git://github.com/gevorg/apache-md5.git
+$ git clone git://github.com/http-auth/apache-md5.git
 ```
 Via [npm](http://npmjs.org/):
 
@@ -41,7 +41,7 @@ $ npm test
 
 ## Issues
 
-You can find list of issues using **[this link](http://github.com/gevorg/apache-md5/issues)**.
+You can find list of issues using **[this link](http://github.com/http-auth/apache-md5/issues)**.
 
 ## Requirements
 
