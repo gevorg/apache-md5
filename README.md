@@ -33,7 +33,7 @@ console.log(md5("notmypass", encryptedPassword) == encryptedPassword);
 
 ## Running tests
 
-It uses [nodeunit](https://github.com/caolan/nodeunit/), so just run following command in package directory:
+It uses [mocha](https://mochajs.org/), so just run following command in package directory:
 
 ```bash
 $ npm test
@@ -50,7 +50,9 @@ You can find list of issues using **[this link](http://github.com/http-auth/apac
 
 ## Development dependencies
 
- - **[nodeunit](https://github.com/caolan/nodeunit/)** - Easy unit testing in node.js and the browser, based on the assert module.
+ - **[babel](https://babeljs.io/)** - compiler for writing next generation JavaScript.
+ - **[mocha](https://mochajs.org/)** - simple, flexible, fun javascript test framework for node.js & the browser.
+ - **[chai](http://chaijs.com/)** - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
 
 ## License
 

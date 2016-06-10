@@ -4,3 +4,5 @@ node_modules
 apache-md5.iml
 .idea
 .settings
+src
+test

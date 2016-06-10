@@ -1,7 +1,7 @@
 {
 	"name": "apache-md5",
 	"description": "Node.js module for Apache style password encryption using md5.",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"author": "Gevorg Harutyunyan (http://github.com/gevorg)",
 	"maintainers": [
 		{
@@ -14,7 +14,7 @@
 		"type": "git",
 		"url": "http://github.com/http-auth/apache-md5.git"
 	},
-	"main": "./lib/apache-md5.js",
+	"main": "./gensrc/index.js",
 	"licenses": [
 		{
 			"type": "MIT",
@@ -26,13 +26,19 @@
 		"url": "http://github.com/http-auth/apache-md5/issues"
 	},
 	"devDependencies": {
-		"nodeunit": "0.9.1"
+		"babel-cli": "^6.9.0",
+		"babel-preset-es2015": "^6.9.0",
+		"mocha": "^2.5.3",
+		"chai": "^3.5.0"
 	},
 	"engines": {
-		"node": ">=0.4.1"
+		"node": ">=5"
 	},
-   "scripts": {
-      "test": "node ./node_modules/nodeunit/bin/nodeunit tests"
-   },
-	"keywords": ["node", "apache", "md5", "password", "htpasswd"]
+	"scripts": {
+		"test": "mocha --compilers js:babel-core/register",
+		"compile": "babel src -d gensrc",
+		"prepublish": "npm run compile",
+		"pretest": "npm run compile"
+	},
+	"keywords": ["apache", "md5", "password", "htpasswd"]
 }
