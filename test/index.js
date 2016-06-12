@@ -4,7 +4,7 @@
 import {expect} from 'chai'
 
 // Import source.
-import md5 from '../gensrc/index'
+import md5 from '../src/index'
 
 // apache-md5 tests.
 describe('apache-md5', function () {
