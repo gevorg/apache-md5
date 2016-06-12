@@ -6,3 +6,4 @@ apache-md5.iml
 .settings
 src
 test
+.travis.yml
