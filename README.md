@@ -2,7 +2,6 @@
 [Node.js](http://nodejs.org/) package for Apache style password encryption using md5..
 
 [![Build Status](https://api.travis-ci.org/http-auth/apache-md5.png)](https://travis-ci.org/http-auth/apache-md5)
-[![Dependency Status](https://david-dm.org/http-auth/apache-md5.png)](https://david-dm.org/http-auth/apache-md5)
 
 ## Installation
 
