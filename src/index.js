@@ -1,7 +1,7 @@
 "use strict";
 
 // Crypto module import.
-import crypto from 'crypto'
+const crypto = require('crypto');
 
 // Hash generation string.
 const itoa64 = './0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
@@ -51,7 +51,7 @@ function getPassword(final) {
 }
 
 // Exporting old style.
-module.exports = function(password, salt) {
+module.exports = (password, salt) => {
     let magic = '';
     if (salt && salt.split('$')[1] === '1') {
         magic = '$1$';
