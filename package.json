@@ -1,7 +1,7 @@
 {
 	"name": "apache-md5",
 	"description": "Node.js module for Apache style password encryption using md5.",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"author": "Gevorg Harutyunyan (http://github.com/gevorg)",
 	"maintainers": [
 		{
@@ -30,7 +30,7 @@
 		"chai": "^3.5.0"
 	},
 	"engines": {
-		"node": ">=6.7.0"
+		"node": ">=4.6.1"
 	},
 	"scripts": {
 		"test": "mocha"
