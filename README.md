@@ -19,10 +19,10 @@ $ npm install apache-md5
 ## Usage
 
 ```javascript
-var md5 = require("apache-md5");
+const md5 = require("apache-md5");
 
 // Encrypting password using apache's md5 algorithm.
-var encryptedPassword = md5("mypass");
+const encryptedPassword = md5("mypass");
 
 // Should print true.
 console.log(md5("mypass", encryptedPassword) == encryptedPassword);
