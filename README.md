@@ -1,7 +1,7 @@
 # apache-md5
 [Node.js](http://nodejs.org/) package for Apache style password encryption using md5..
 
-[![Build Status](https://api.travis-ci.org/http-auth/apache-md5.png)](https://travis-ci.org/http-auth/apache-md5)
+[![build](https://github.com/http-auth/apache-md5/workflows/build/badge.svg)](https://github.com/http-auth/apache-md5/actions?query=workflow%3Abuild)
 
 ## Installation
 
@@ -46,11 +46,6 @@ You can find list of issues using **[this link](http://github.com/http-auth/apac
 
  - **[Node.js](http://nodejs.org)** - Event-driven I/O server-side JavaScript       environment based on V8.
  - **[npm](http://npmjs.org)** - Package manager. Installs, publishes and manages   node programs.
-
-## Development dependencies
-
- - **[mocha](https://mochajs.org/)** - simple, flexible, fun javascript test framework for node.js & the browser.
- - **[chai](http://chaijs.com/)** - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
 
 ## License
 
