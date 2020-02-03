@@ -8,3 +8,4 @@ test
 .travis.yml
 .github
 .eslintrc.json
+.prettier.config.js
