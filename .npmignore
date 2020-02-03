@@ -1,11 +1,14 @@
 .gitignore
 node_modules
 .project
-apache-md5.iml
+*.iml
 .idea
 .settings
+_site
 test
+examples
 .travis.yml
+data
 .github
 .eslintrc.json
 .prettier.config.js
