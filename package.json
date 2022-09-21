@@ -15,6 +15,7 @@
         "url": "http://github.com/gevorg/apache-md5.git"
     },
     "main": "./src/index.js",
+    "typings": "./src/apache-md5.d.ts",
     "licenses": [
         {
             "type": "MIT",
